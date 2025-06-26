@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Rushbox</title>
+</head>
+
+<body>
+    <div id="rushbox">
+        <!-- 左手 -->
+        <div class="button small" id="Button26"></div>
+        <div class="button small" id="Button25"></div>
+        <div class="button small" id="Button21"></div>
+        <div class="button small" id="Button22"></div>
+        <div class="button big" id="Button23"></div>
+        <div class="button big" id="Button24"></div>
+        <!-- 右手 -->
+        <div class="button small" id="Button0"></div>
+
+        <div class="button small" id="Button15"></div>
+        <div class="button small" id="Button14"></div>
+        <div class="button small" id="Button10"></div>
+        <div class="button small" id="Button9"></div>
+        <div class="button small" id="Button5"></div>
+        <div class="button small" id="Button13"></div>
+        <div class="button small" id="Button11"></div>
+        <div class="button small" id="Button8"></div>
+        <div class="button small" id="Button6"></div>
+
+        <div class="button big" id="Button12"></div>
+
+        <div class="button big" id="Button7"></div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        (function () {
+            const buttonHandler = new ButtonHandler({
+                // 移動
+                "Left": "Button25",
+                "Down": "Button21",
+                "Right": "Button22",
+                "Up": "Button24",
+                // ABXY
+                "A": "Button14",
+                "B": "Button10",
+                "X": "Button9",
+                "Y": "Button5",
+                // LR
+                "LB": "Button15",
+                "LT": "Button23",
+                "LS": "Button26",
+                "RB": "Button0",
+                "RT": "Button7",
+                "RS": "Button12"
+            });
+        })();
+    </script>
+</body>
+
+</html>

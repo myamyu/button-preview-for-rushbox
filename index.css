@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 画像サイズに合わせる */
+    width: 800px;
+    height: 433px;
+}
+
+#rushbox {
+    width: 100%;
+    height: 100%;
+    /* 自分のコントローラに変更する */
+    background-image: url(Rushbox.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.button {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+/** ボタンを押したときのスタイル */
+.button.active {
+    background-color: #d3d360;
+}
+
+/** 小さいボタンのサイズ */
+.button.small {
+    width: 67px;
+    height: 67px;
+}
+
+/** 大きいボタンのサイズ */
+.button.big {
+    width: 84px;
+    height: 84px;
+}
+
+/**
+ * 以下は各ボタンの位置。
+ * 画像にあわせて調整する。
+ */
+#Button26 {
+    left: 45px;
+    top: 116px;
+}
+
+#Button25 {
+    left: 128px;
+    top: 95px;
+}
+
+#Button21 {
+    left: 212px;
+    top: 99px;
+}
+
+#Button22 {
+    left: 284px;
+    top: 136px;
+}
+
+#Button23 {
+    left: 248px;
+    top: 258px;
+}
+
+#Button24 {
+    left: 334px;
+    top: 305px;
+}
+
+#Button0 {
+    left: 425px;
+    top: 25px;
+}
+
+#Button15 {
+    left: 363px;
+    top: 160px;
+}
+
+#Button14 {
+    left: 429px;
+    top: 110px;
+}
+
+#Button10 {
+    left: 513px;
+    top: 73px;
+}
+
+#Button9 {
+    left: 601px;
+    top: 63px;
+}
+
+#Button5 {
+    left: 683px;
+    top: 74px;
+}
+
+#Button13 {
+    left: 438px;
+    top: 192px;
+}
+
+#Button11 {
+    left: 521px;
+    top: 156px;
+}
+
+#Button8 {
+    left: 610px;
+    top: 144px;
+}
+
+#Button6 {
+    left: 697px;
+    top: 155px;
+}
+
+#Button12 {
+    left: 428px;
+    top: 278px;
+}
+
+#Button7 {
+    left: 701px;
+    top: 323px;
+}
